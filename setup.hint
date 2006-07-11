@@ -1,0 +1,5 @@
+category: Perl
+requires: cygwin perl
+sdesc: "Perl XML document tree module"
+ldesc: "Perl module providing tree interface to XML documents allowing
+processing chunk by chunk of huge documents."
