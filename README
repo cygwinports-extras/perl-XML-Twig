@@ -4,8 +4,8 @@ Perl module providing tree interface to XML documents allowing
 processing chunk by chunk of huge documents.
 
 Runtime requirements:
-  cygwin-1.5.20-1
-  perl-5.8.7-5
+  cygwin-1.5.24-2
+  perl-5.8.8-4
 
 Canonical homepage:
   http://search.cpan.org/dist/XML-Twig/
@@ -16,15 +16,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-XML-Twig-3.26-X-src.tar.bz2
+  unpack perl-XML-Twig-3.32-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-XML-Twig-3.26-X.cygport all
+  cygport ./perl-XML-Twig-3.32-X.cygport all
 
 This will create:
-  /usr/src/perl-XML-Twig-3.26-X-src.tar.bz2
-  /usr/src/perl-XML-Twig-3.26-X.tar.bz2
+  /usr/src/perl-XML-Twig-3.32-X-src.tar.bz2
+  /usr/src/perl-XML-Twig-3.32-X.tar.bz2
 
 -------------------------------------------
 
@@ -39,9 +39,9 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/XML/Twig.pm
   /usr/lib/perl5/vendor_perl/5.8/XML/Twig/XPath.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/Twig/.packlist
-  /usr/share/doc/Cygwin/perl-XML-Twig-3.26.README
-  /usr/share/doc/perl-XML-Twig-3.26/Changes
-  /usr/share/doc/perl-XML-Twig-3.26/README
+  /usr/share/doc/Cygwin/perl-XML-Twig-3.32.README
+  /usr/share/doc/perl-XML-Twig-3.32/Changes
+  /usr/share/doc/perl-XML-Twig-3.32/README
   /usr/share/man/man1/xml_grep.1.gz
   /usr/share/man/man1/xml_merge.1.gz
   /usr/share/man/man1/xml_pp.1.gz
@@ -53,6 +53,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 3.32-1 -----
+Version bump.
 
 ----- version 3.26-1 -----
 Initial release for Cygwin.
