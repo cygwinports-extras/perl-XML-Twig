@@ -1,0 +1,8 @@
+CPAN_AUTHOR=mirod
+inherit perl
+
+src_compile() {
+	lndirs
+	cd ${B}
+	perl_compile -y
+}
