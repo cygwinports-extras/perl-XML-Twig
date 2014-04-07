@@ -1,0 +1,16 @@
+CPAN_AUTHOR=mirod
+inherit perl
+
+NAME="perl-XML-Twig"
+VERSION=3.32
+RELEASE=2
+CATEGORY="Perl"
+SUMMARY="Perl XML document tree module"
+DESCRIPTION="Perl module providing tree interface to XML documents allowing
+processing chunk by chunk of huge documents."
+
+src_compile() {
+	lndirs
+	cd ${B}
+	perl_compile -y
+}
