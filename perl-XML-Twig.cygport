@@ -2,12 +2,17 @@ CPAN_AUTHOR=mirod
 inherit perl
 
 NAME="perl-XML-Twig"
-VERSION=3.32
-RELEASE=2
+VERSION=3.48
+RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl XML document tree module"
 DESCRIPTION="Perl module providing tree interface to XML documents allowing
 processing chunk by chunk of huge documents."
+
+ARCH=noarch
+
+# optional dependencies
+REQUIRES="perl-HTML-Entities-Numbered perl-HTML-Parser perl-HTML-Tree perl-Tie-IxHash perl-XML-XPathEngine"
 
 src_compile() {
 	lndirs
