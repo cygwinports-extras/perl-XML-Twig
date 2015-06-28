@@ -2,7 +2,7 @@ CPAN_AUTHOR=mirod
 inherit perl
 
 NAME="perl-XML-Twig"
-VERSION=3.48
+VERSION=3.49
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl XML document tree module"
